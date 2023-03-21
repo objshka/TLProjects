@@ -19,4 +19,20 @@ public class Dishes : Product
     {
         return "посуда";
     }
+    
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Name, Price, Material, Description);
+    }
+
+    public override bool Equals(object obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Dishes dishes = (Dishes)obj;
+        return Name == dishes.Name && Price == dishes.Price && Material == dishes.Material && Description == dishes.Description;
+    }
 }

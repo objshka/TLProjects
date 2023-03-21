@@ -21,4 +21,30 @@ public class Appliance : Product
     {
         return "техника";
     }
+    
+    public override bool Equals(object obj)
+    {
+        if (obj == null || GetType() != obj.GetType())
+        {
+            return false;
+        }
+
+        Appliance other = (Appliance)obj;
+        return Name == other.Name &&
+               Price == other.Price &&
+               PowerConsumption == other.PowerConsumption &&
+               Description == other.Description &&
+               MainFunction == other.MainFunction;
+    }
+
+    public override int GetHashCode()
+    {
+        int hash = 17;
+        hash = hash * 23 + Name.GetHashCode();
+        hash = hash * 23 + Price.GetHashCode();
+        hash = hash * 23 + PowerConsumption.GetHashCode();
+        hash = hash * 23 + Description.GetHashCode();
+        hash = hash * 23 + MainFunction.GetHashCode();
+        return hash;
+    }
 }

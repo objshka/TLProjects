@@ -14,10 +14,10 @@ public abstract class Product
     }
 
     public string Description { get; protected set; } = "";
-    public int Id { get; private set; } 
-    public NamesOfProducts Name { get; private set; } 
-    public double Weight { get; private set; }
-    public int Price { get; private set; }
+    public int Id { get; } 
+    public NamesOfProducts Name { get; } 
+    public double Weight { get; }
+    public int Price { get; }
 
     public void ShowInfo()
     {
