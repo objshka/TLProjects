@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Api", "Hotels.Api\Hotels.Api.csproj", "{B995B6C6-B626-4771-96D8-99D03B1B8B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Application", "Hotels.Application\Hotels.Application.csproj", "{C0DA2131-FBBC-4D25-B21B-BE289FB76F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Domain", "Hotels.Domain\Hotels.Domain.csproj", "{380C450B-A000-4BA5-8EE9-E9EAF2F5FA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotels.Infrastructure", "Hotels.Infrastructure\Hotels.Infrastructure.csproj", "{5A512979-BEBB-444D-AB8D-17AD1DA47687}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B995B6C6-B626-4771-96D8-99D03B1B8B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B995B6C6-B626-4771-96D8-99D03B1B8B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B995B6C6-B626-4771-96D8-99D03B1B8B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B995B6C6-B626-4771-96D8-99D03B1B8B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DA2131-FBBC-4D25-B21B-BE289FB76F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DA2131-FBBC-4D25-B21B-BE289FB76F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DA2131-FBBC-4D25-B21B-BE289FB76F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DA2131-FBBC-4D25-B21B-BE289FB76F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380C450B-A000-4BA5-8EE9-E9EAF2F5FA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380C450B-A000-4BA5-8EE9-E9EAF2F5FA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380C450B-A000-4BA5-8EE9-E9EAF2F5FA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380C450B-A000-4BA5-8EE9-E9EAF2F5FA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A512979-BEBB-444D-AB8D-17AD1DA47687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A512979-BEBB-444D-AB8D-17AD1DA47687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A512979-BEBB-444D-AB8D-17AD1DA47687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A512979-BEBB-444D-AB8D-17AD1DA47687}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
